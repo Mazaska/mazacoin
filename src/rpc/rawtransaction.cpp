@@ -490,7 +490,7 @@ UniValue decoderawtransaction(const UniValue& params, bool fHelp)
             "         \"reqSigs\" : n,            (numeric) The required sigs\n"
             "         \"type\" : \"pubkeyhash\",  (string) The type, eg 'pubkeyhash'\n"
             "         \"addresses\" : [           (json array of string)\n"
-            "           \"12tvKAXCxZjSmdNbao16dKXC8tRWfcF5oc\"   (string) mazacoin address\n"
+            "           \"M9o5YbRcTauFfJLvomf2sb8Xc7JgDydgav\"   (string) mazacoin address\n"
             "           ,...\n"
             "         ]\n"
             "       }\n"

@@ -330,9 +330,9 @@ UniValue removeprunedfunds(const UniValue& params, bool fHelp)
             "\nArguments:\n"
             "1. \"txid\"           (string, required) The hex-encoded id of the transaction you are deleting\n"
             "\nExamples:\n"
-            + HelpExampleCli("removeprunedfunds", "\"a8d0c0184dde994a09ec054286f1ce581bebf46446a512166eae7628734ea0a5\"") +
+            + HelpExampleCli("removeprunedfunds", "\"4d45a462105c42287cf12c24cd33ccb1b92c0e87b180a83b74adbc5e26a72b00\"") +
             "\nAs a JSON-RPC call\n"
-            + HelpExampleRpc("removprunedfunds", "\"a8d0c0184dde994a09ec054286f1ce581bebf46446a512166eae7628734ea0a5\"")
+            + HelpExampleRpc("removprunedfunds", "\"4d45a462105c42287cf12c24cd33ccb1b92c0e87b180a83b74adbc5e26a72b00\"")
         );
 
     LOCK2(cs_main, pwalletMain->cs_wallet);
