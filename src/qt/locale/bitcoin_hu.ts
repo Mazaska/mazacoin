@@ -155,8 +155,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Bitcoin küldése megadott címre</translation>
+        <source>Send coins to a Mazacoin address</source>
+        <translation>Mazacoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -179,8 +179,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Mazacoin</source>
+        <translation>Mazacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -207,12 +207,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Bitcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Mazacoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Mazacoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Bitcoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Mazacoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Mazacoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -231,8 +231,8 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and mazacoin: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "mazacoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -243,16 +243,16 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>"bitcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a mazacoin: URI or payment request</source>
+        <translation>"mazacoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to Mazacoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a Mazacoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Mazacoin hálózathoz</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -606,16 +606,16 @@
         <translation>Szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Mazacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Mazacoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Bitcoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Mazacoin network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Mazacoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -709,8 +709,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Bitcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Mazacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Mazacoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -779,8 +779,8 @@
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ad meg egy Bitcoin címet (pl: %1)</translation>
+        <source>Enter a Mazacoin address (e.g. %1)</source>
+        <translation>Ad meg egy Mazacoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1296,7 +1296,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Mazacoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1375,8 +1375,8 @@
         <translation>Kívülről érkező kapcsolatok elfogadása (alapértelmezett: 1, ha nem használt a -proxy vagy a -connect)</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Mazacoin Core</source>
+        <translation>Mazacoin Core</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -1538,7 +1538,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég bitcoinod.</translation>
+        <translation>Nincs elég mazacoinod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

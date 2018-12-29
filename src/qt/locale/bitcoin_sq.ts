@@ -91,8 +91,8 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Mazacoin</source>
+        <translation>Mazacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -405,8 +405,8 @@
         <translation>Opsionet:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Berthama Bitcoin</translation>
+        <source>Mazacoin Core</source>
+        <translation>Berthama Mazacoin</translation>
     </message>
     <message>
         <source>Information</source>

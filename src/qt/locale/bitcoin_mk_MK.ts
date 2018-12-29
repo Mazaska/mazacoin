@@ -135,16 +135,16 @@
         <translation>Повторно индексирање на блокови од дискот...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Испрати биткоини на Биткоин адреса</translation>
+        <source>Send coins to a Mazacoin address</source>
+        <translation>Испрати mazacoinи на Mazacoin адреса</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Потврди порака...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Биткоин</translation>
+        <source>Mazacoin</source>
+        <translation>Mazacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -567,8 +567,8 @@
         <translation>Опции:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Биткоин Core</translation>
+        <source>Mazacoin Core</source>
+        <translation>Mazacoin Core</translation>
     </message>
     <message>
         <source>Warning</source>

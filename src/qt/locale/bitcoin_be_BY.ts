@@ -143,8 +143,8 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Даслаць манеты на Біткойн-адрас</translation>
+        <source>Send coins to a Mazacoin address</source>
+        <translation>Даслаць манеты на Mazacoin-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -167,8 +167,8 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Біткойн</translation>
+        <source>Mazacoin</source>
+        <translation>Mazacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -195,12 +195,12 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your Mazacoin addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай Mazacoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified Mazacoin addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай Mazacoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -215,8 +215,8 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для біткойн URI)</translation>
+        <source>Request payments (generates QR codes and mazacoin: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для mazacoin URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -227,16 +227,16 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Адкрыць біткойн: URI ці запыт плацяжу</translation>
+        <source>Open a mazacoin: URI or payment request</source>
+        <translation>Адкрыць mazacoin: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з сецівам Bitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Bitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Bitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to Mazacoin network</source>
+        <translation><numerusform>%n актыўнае злучэнне з сецівам Mazacoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Mazacoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Mazacoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Mazacoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -703,8 +703,8 @@
         <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Mazacoin Core</source>
+        <translation>Mazacoin Core</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>

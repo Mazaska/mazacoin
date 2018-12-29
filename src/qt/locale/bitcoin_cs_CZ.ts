@@ -83,8 +83,8 @@
         <translation>Změnit heslo k šifrování peněženky</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Mazacoin</source>
+        <translation>Mazacoin</translation>
     </message>
     <message>
         <source>&amp;File</source>

@@ -100,7 +100,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Erakutsi Bitcoin-i buruzko informazioa</translation>
+        <translation>Erakutsi Mazacoin-i buruzko informazioa</translation>
     </message>
     <message>
         <source>&amp;Options...</source>

@@ -147,8 +147,8 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Slanje novca na bitcoin adresu</translation>
+        <source>Send coins to a Mazacoin address</source>
+        <translation>Slanje novca na mazacoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -171,8 +171,8 @@
         <translation>&amp;Potvrdite poruku...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Mazacoin</source>
+        <translation>Mazacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -199,12 +199,12 @@
         <translation>Šifriranje privatnih ključeva koji u novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s bitcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your Mazacoin addresses to prove you own them</source>
+        <translation>Poruku potpišemo s mazacoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom bitcoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified Mazacoin addresses</source>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom mazacoin adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -223,8 +223,8 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i bitcoin: URI adresu)</translation>
+        <source>Request payments (generates QR codes and mazacoin: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i mazacoin: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -235,16 +235,16 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Otvori bitcoin: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a mazacoin: URI or payment request</source>
+        <translation>Otvori mazacoin: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to Mazacoin network</source>
+        <translation><numerusform>%n aktivna veza na Mazacoin mrežu</numerusform><numerusform>%n aktivnih veza na Mazacoin mrežu</numerusform><numerusform>%n aktivnih veza na Mazacoin mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -424,11 +424,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka bitcoin adrese</translation>
+        <translation>Oznaka mazacoin adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Bitcoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>Mazacoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -558,8 +558,8 @@
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Mazacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Mazacoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -607,7 +607,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio bitcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio mazacoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -633,8 +633,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Bitcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Mazacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Mazacoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -987,8 +987,8 @@
         <translation>Izvršavaj u pozadini kao uslužnik i prihvaćaj komande</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Mazacoin Core</source>
+        <translation>Mazacoin Core</translation>
     </message>
     <message>
         <source>Block creation options:</source>

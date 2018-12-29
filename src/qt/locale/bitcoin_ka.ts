@@ -139,8 +139,8 @@
         <translation>დისკზე ბლოკების რეინდექსაცია...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>მონეტების გაგზავნა Bitcoin-მისამართზე</translation>
+        <source>Send coins to a Mazacoin address</source>
+        <translation>მონეტების გაგზავნა Mazacoin-მისამართზე</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -163,8 +163,8 @@
         <translation>&amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Mazacoin</source>
+        <translation>Mazacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -191,12 +191,12 @@
         <translation>თქვენი საფულის პირადი გასაღებების დაშიფრვა</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>მესიჯებზე ხელმოწერა თქვენი Bitcoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
+        <source>Sign messages with your Mazacoin addresses to prove you own them</source>
+        <translation>მესიჯებზე ხელმოწერა თქვენი Mazacoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
+        <source>Verify messages to ensure they were signed with specified Mazacoin addresses</source>
+        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Mazacoin-მისამართით</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -215,8 +215,8 @@
         <translation>ბარათების პანელი</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და bitcoin: ბმულები)</translation>
+        <source>Request payments (generates QR codes and mazacoin: URIs)</source>
+        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და mazacoin: ბმულები)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -227,8 +227,8 @@
         <translation>გამოყენებული მიღების მისამართებისა და ნიშნულების სიის ჩვენება</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>bitcoin: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
+        <source>Open a mazacoin: URI or payment request</source>
+        <translation>mazacoin: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -508,8 +508,8 @@
         <translation>დაუდასტურებელი ხურდის გამოყენების აკრძალვის შემდეგ მათი გამოყენება შეუძლებელი იქნება, სანამ ტრანსაქციას არ ექნება ერთი დასტური მაინც. ეს აისახება თქვენი ნაშთის დათვლაზეც.</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>როუტერში Bitcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
+        <source>Automatically open the Mazacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>როუტერში Mazacoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -603,8 +603,8 @@
         <translation>ფორმა</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Bitcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Mazacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Mazacoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -795,8 +795,8 @@
         <translation>ად&amp;რე გამოყენებული მიღების მისამართის გამოყენება (არ არის რეკომენდებული)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Mazacoin network.</source>
+        <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას Mazacoin ქსელში.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1000,8 +1000,8 @@
         <translation>შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
+        <source>A message that was attached to the mazacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Mazacoin network.</source>
+        <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას Mazacoin ქსელში.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1058,7 +1058,7 @@
         <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Mazacoin address</source>
         <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
@@ -1078,8 +1078,8 @@
         <translation>მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
+        <source>Verify the message to ensure it was signed with the specified Mazacoin address</source>
+        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Mazacoin-მისამართით</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1145,8 +1145,8 @@
         <translation>გარედან შეერთებების დაშვება (ნაგულისხმევი: 1 თუ არ გამოიყენება -proxy ან -connect)</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Mazacoin Core</source>
+        <translation>Mazacoin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

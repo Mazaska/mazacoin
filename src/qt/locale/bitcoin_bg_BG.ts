@@ -229,8 +229,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Биткойн ядро</translation>
+        <source>Mazacoin Core</source>
+        <translation>Mazacoin ядро</translation>
     </message>
     </context>
 </TS>
