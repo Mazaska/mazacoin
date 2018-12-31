@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mazacoin
+Comment=Mazacoin P2P Cryptocurrency
+Comment[fr]=Mazacoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Mazacoin, eşten eşe kriptografik sanal para birimi
+Exec=mazacoin-qt %u
+Terminal=false
+Type=Application
+Icon=mazacoin128
+MimeType=x-scheme-handler/mazacoin;
+Categories=Office;Finance;

@@ -1,0 +1,6 @@
+usr/local/bin/mazacoin-qt usr/bin
+share/pixmaps/mazacoin32.xpm usr/share/pixmaps
+share/pixmaps/mazacoin16.xpm usr/share/pixmaps
+share/pixmaps/mazacoin128.png usr/share/pixmaps
+debian/mazacoin-qt.desktop usr/share/applications
+debian/mazacoin-qt.protocol usr/share/kde4/services/

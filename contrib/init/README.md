@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: bitcoind.service
-Upstart: bitcoind.conf
-OpenRC:  bitcoind.openrc
-         bitcoind.openrcconf
-CentOS:  bitcoind.init
-OS X:    org.bitcoin.bitcoind.plist
+SystemD: mazacoind.service
+Upstart: mazacoind.conf
+OpenRC:  mazacoind.openrc
+         mazacoind.openrcconf
+CentOS:  mazacoind.init
+OS X:    net.mazacoin.mazacoind.plist
 
 have been made available to assist packagers in creating node packages here.
 
