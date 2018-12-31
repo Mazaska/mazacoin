@@ -57,11 +57,18 @@ struct Params {
     BIP9Deployment vDeployments[MAX_VERSION_BITS_DEPLOYMENTS];
     /** Proof of work parameters */
     uint256 powLimit;
+    uint256 startingDifficulty;
     bool fPowAllowMinDifficultyBlocks;
     bool fPowNoRetargeting;
     int64_t nPowTargetSpacing;
     int64_t nPowTargetTimespan;
     int64_t DifficultyAdjustmentInterval() const { return nPowTargetTimespan / nPowTargetSpacing; }
+    int64_t nAveragingInterval() const { return DifficultyAdjustmentInterval() * 20; }
+    int64_t nAveragingTargetTimespan() const { return nPowTargetTimespan * 20; } // 160 minutes
+    static const int64_t nMaxAdjustDown = 20; // 20% adjustment down
+    static const int64_t nMaxAdjustUp = 15; // 15% adjustment up
+    int64_t nMinActualTimespan() const { return (nAveragingTargetTimespan() * (100 - nMaxAdjustUp) / 100); }
+    int64_t nMaxActualTimespan() const { return (nAveragingTargetTimespan() * (100 + nMaxAdjustDown) / 100); }
 };
 } // namespace Consensus
 

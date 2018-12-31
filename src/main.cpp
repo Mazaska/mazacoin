@@ -1699,9 +1699,23 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
     if (halvings >= 64)
         return 0;
 
-    CAmount nSubsidy = 50 * COIN;
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
+    CAmount nMinSubsidy = 1 * COIN;
+    CAmount nSubsidy = 5000 * COIN;
+
+    if (consensusParams.fPowAllowMinDifficultyBlocks) {
+        halvings = (nHeight-10) / consensusParams.nSubsidyHalvingInterval;
+        if (nHeight >= 10)
+            nSubsidy = nSubsidy / 5;
+    } else {
+        halvings = (nHeight-100000) / consensusParams.nSubsidyHalvingInterval;
+        if (nHeight >= 100000)
+            nSubsidy = nSubsidy / 5;
+    }
+
+    // Subsidy is cut in half every 950,000 blocks which will occur approximately every 3.6 years.
     nSubsidy >>= halvings;
+    if (nSubsidy < nMinSubsidy)
+        nSubsidy = nMinSubsidy;
     return nSubsidy;
 }
 
@@ -2344,9 +2358,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     // Now that the whole chain is irreversibly beyond that time it is applied to all blocks except the
     // two in the chain that violate it. This prevents exploiting the issue against nodes during their
     // initial block download.
-    bool fEnforceBIP30 = (!pindex->phashBlock) || // Enforce on CreateNewBlock invocations which don't have a hash.
-                          !((pindex->nHeight==91842 && pindex->GetBlockHash() == uint256S("0x00000000000a4d0a398161ffc163c503763b1f4360639393e0e4c8e300e0caec")) ||
-                           (pindex->nHeight==91880 && pindex->GetBlockHash() == uint256S("0x00000000000743f190a18c5577a3c2d2a1f610ae9601ac046a38084ccb7cd721")));
+    bool fEnforceBIP30 = (!pindex->phashBlock); // Enforce on CreateNewBlock invocations which don't have a hash.
 
     // Once BIP34 activated it was not possible to create new duplicate coinbases and thus other than starting
     // with the 2 existing duplicate coinbase pairs, not possible to create overwriting txs.  But by the
@@ -4090,7 +4102,7 @@ bool CVerifyDB::VerifyDB(const CChainParams& chainparams, CCoinsView *coinsview,
 
     // Verify blocks in the best chain
     if (nCheckDepth <= 0)
-        nCheckDepth = 1000000000; // suffices until the year 19000
+        nCheckDepth = std::numeric_limits<int>::max();
     if (nCheckDepth > chainActive.Height())
         nCheckDepth = chainActive.Height();
     nCheckLevel = std::max(0, std::min(4, nCheckLevel));
